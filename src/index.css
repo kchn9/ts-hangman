@@ -25,6 +25,12 @@ button {
   background-color: #242424;
   border: 1px transparent solid;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #5e5e5e;
+  cursor: not-allowed;
 }
 
 button:hover {
