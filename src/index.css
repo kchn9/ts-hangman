@@ -23,6 +23,8 @@ body {
 button {
   color: white;
   background-color: #242424;
+  border: 1px transparent solid;
+  border-radius: 8px;
 }
 
 button:hover {
